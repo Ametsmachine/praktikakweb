@@ -1,0 +1,56 @@
+/* CSS existente */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #add8e6;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.headerM {
+    margin: 0;
+}
+
+.offcanvas-end {
+    background-color: #b2b2b2;
+}
+
+.sidebar-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+.sidebar-button:hover {
+    background-color: #0056b3;
+}
+
+.makinakSideBar {
+    display: grid;
+}
+.footer {
+    background-color: #6c8496;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer p {
+    margin: 0;
+    line-height: 1.6;
+}
