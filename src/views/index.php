@@ -19,13 +19,34 @@
         <button class="btn btn-primary sidebar-button" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">☰
         </button>
+
         <?php
         include_once ("../required/sideBar.php");
         ?>
+    </header>
+
+
+    <div class="containerMakinak">
         <?php
-         
-         include_once ("../required/footer.php");
-         ?>
-     </body>
-     
-     </html>
+
+        include_once ("../required/atalak/makinak.php");
+        include_once ("../required/atalak/arriskuak.php");
+        include_once ("../required/atalak/babes.php");
+        include_once ("../required/atalak/proKimi.php");
+        include_once ("../required/atalak/hondakinak.php");
+        include_once ("../required/atalak/atalak.php");
+        if ($id_makina == 14) {
+            include_once ("../required/atalak/detaileak.php");
+
+        }
+
+
+        include_once ("../required/atalak/bideoak.php");
+        ?>
+    </div>
+    <?php
+    include_once ("../required/footer.php");
+    ?>
+</body>
+
+</html>
