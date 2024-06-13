@@ -4,7 +4,7 @@
         $servername = "localhost"; 
         $username = "root";
         $password = "1WMG2023";
-        $dbname = "praktikakk";
+        $dbname = "erronkaerrekuperazioa";
     
         $conn = new mysqli($servername, $username, $password, $dbname);
     
@@ -15,3 +15,4 @@
 
         return $conn;
     }
+

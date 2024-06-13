@@ -35,13 +35,9 @@
         include_once ("../required/atalak/proKimi.php");
         include_once ("../required/atalak/hondakinak.php");
         include_once ("../required/atalak/atalak.php");
-        if ($id_makina == 14) {
-            include_once ("../required/atalak/detaileak.php");
-
-        }
+        
 
 
-        include_once ("../required/atalak/bideoak.php");
         ?>
     </div>
     <?php

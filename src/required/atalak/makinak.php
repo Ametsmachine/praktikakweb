@@ -1,6 +1,6 @@
 <?php
         $id_makina = isset($_GET["id_makina"]) ? $_GET["id_makina"] : 1;
-        
+        //Makinak///////////////////////////////////////////////////////////////////////////
         $conn = connection();
         $query = "SELECT * FROM makina where id_makina = $id_makina";
         $result = $conn->query($query);
@@ -24,14 +24,6 @@
                             <tr>
                                 <td class="td ezkColum">Modeloa</td>
                                 <td class="td"><?= $row["modeloa"] ?></td>
-                            </tr>
-                            <tr>
-                                <td class="td ezkColum">Fabrikazio Urtea</td>
-                                <td class="td"><?= $row["fabrikazioUrtea"] ?></td>
-                            </tr>
-                            <tr>
-                                <td class="td ezkColum">Erosketa Urtea</td>
-                                <td class="td"><?= $row["erosketaUrtea"] ?></td>
                             </tr>
                             <tr>
                                 <td class="td ezkColum">Kokapena</td>
